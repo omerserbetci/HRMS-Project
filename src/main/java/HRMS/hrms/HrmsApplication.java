@@ -15,7 +15,7 @@ public class HrmsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HrmsApplication.class, args);
-	}
+}
 
 	@Bean
     public Docket api() { 
@@ -25,4 +25,5 @@ public class HrmsApplication {
           .build();                                           
     }
 	
+		
 }
